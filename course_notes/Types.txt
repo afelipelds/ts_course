@@ -1,0 +1,29 @@
+Tipado de TS:
+
+- Explícito: Se define explícitamente una sintaxis (el orden, la formación y la combinación de las reglas) del tipo de la variables a usar.
+
+```
+miVariableExplicita : string = 'Esta variable es explícita' // el `:` permite especificar el tipo del dato
+```
+
+- Inferido: TS tiene la habilidad de deducir el tipo de variable que se usa a partir del valor asignado a dicha variable
+```
+miVariableInferida = "Esta variable será un string"  // TS deduce el tipo de miVariableInferida y el valor, a partir de la inicialización de la misma
+```
+.
+Tipos de datos primitivos:
+
+- Number  // dato númerico - puede ser numero, hexadecimal, binario, octal
+- Boolean  // dato booleano - es el tipo de dato más simple dentro de TS: true ó false
+- String  // Dato string || template string - recibe datos string, pero también se puede hacer uso de backticks para expresiones: 'this is my var' | `this is ${myVar}`
+- Any  // Usado en capturas de valores dinámicos ó cuando los valores cambian de tipo en el tiempo ( debido a API o librerías de terceros). Solo debe usarse cuando no se está seguro del valor a usar o de retorno
+- Void  // Es el tipo opuesto a Any. Es la ausencia de valor y no tiene sentido su uso en declaración de variables - Pero sí en el retorno de las funciones, comunmente cuando no existe un valor en el retorno
+- Never  // Representa el tipo de valor que NUNCA ocurre o se va a dar en el código - Se usa en funciones de excepción o Error en el ámbito del proyecto - Cuadnola función tiene un ciclo infinito y no permite que se finalice. 
+- Null  //  Son subtipos de Any. Son tipo de variable y se usan también como valor dentro de TS
+- Undefined  //  Tanto Undefined como Null son valores y tipos dentro de Ts, pero más que nada son subtipos de Any. Significa que se puede asignar `null` y `undefined`  a una variable tipo string o number 
+- Object  //  Es un tipo de variable que representa un valor no primitivo. es diferente a un number, string, boolean, ,any, null, void, undefined, never - 
+- Array  //  Al igual que en JS o lenguajes de alto nivel, TS permite almacenar un conjunto de datos - [] ó Array<type>
+- Tuple  // Expresar o representar un conjunto de elementos.
+- Enum // Permiten definir un conjunto de valores con nombre que por lo general llegan a ser números.
+
+
