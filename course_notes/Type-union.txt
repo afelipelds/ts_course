@@ -1,0 +1,14 @@
+- Unión de Tipos
+Se puede definir variables con múltiples tipos de datos.
+Se usa el símbolo pipe ( | )
+
+- Alias de Tipos
+TS permite crear un alias como nombre para un tipo.
+El alias se puede aplicar también a un conjunto de datos o combinación de datos (Union types).
+la palabra reservada `type` es usada para definir un Alias.
+Nos ayudan para evitar la redundancia en la unión de tipos.
+
+- Tipos literales
+Una variable con un tipo literal, puede contener una cadena del conjunto únicamente.
+Permite crear tipos personalizados usando cadenas: podemos definir una variable que tenga un conjunto de valores definidos ( y estos llegar a ser strings únicamente)
+Se usan las cadenas como "tipos" combinados con el símbolo de pip ( | ) entre ellos.
