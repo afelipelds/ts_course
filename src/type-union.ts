@@ -19,8 +19,8 @@ type Username = string;
 
 //////////// Redeclarando, las cosas serían así : 
 let idOfUser: IdUser;
-idOfUser = 'true'
-function gettingUserById(id:IdUser): Username {
+idOfUser = 3;
+const gettingUserById = (id:IdUser): Username => {
     console.log(`Obteniendo el usuario por ID con Alias. El usuario es: ${id}`)
 }
 gettingUserById(idOfUser);

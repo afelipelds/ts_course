@@ -10,10 +10,10 @@ function getUserById(id) {
 getUserById(idUser);
 //////////// Redeclarando, las cosas serían así : 
 var idOfUser;
-idOfUser = 'true';
-function gettingUserById(id) {
+idOfUser = 3;
+var gettingUserById = function (id) {
     console.log("Obteniendo el usuario por ID con Alias. El usuario es: " + id);
-}
+};
 gettingUserById(idOfUser);
 // let smallPictuare: SquareSize = '300x300'; // Error
 var smallPictuare = '100x100';

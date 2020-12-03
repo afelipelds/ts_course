@@ -1,0 +1,4 @@
+- Funciones : Se pueden usar parámetros opcionales y se pueden definir los tipos de datos para estos parámetros.
+            Puede definir algún tipo de retorno ( puede ser un tipo primitivo o básico p.e. number, boolean, string o los tres).
+            Parámetros opcionales: mecanismo para manejar/permitir el paso de diferentes valores o formas diferentes de usar la función.
+            
