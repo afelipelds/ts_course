@@ -1,0 +1,12 @@
+- Las clases y a la POO, se puede conectar las diferentes entidades y se puede relacionar
+- Una clase es la asbtracción  de un conjunto de objetos
+ejemplo:
+Para definir una entidad usuario, se hace uso de una clase: Se debe definir una clase que 
+dentro tenga una función que permita crear objetos a partir de esta Clase y poder interactuar con ellos.
+
+- TS define un modificador de acceso publico por defecto para los miembros de clase ( public )
+- TS define un modificador de acceso privado para los miembros que no se deseen ser leídos por fuera de la clase ( private )
+* con TS se tiene una sintaxis para métodos privados. Usando el signo # antes del nombre del miembro de clase: p.e. #atributo
+  Esto se hace debido a que ofrece garantías de aislamiento en miembros privados.
+  ( Private identifiers are only available when targeting ECMAScript 2015 and higher. )
+

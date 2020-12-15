@@ -1,0 +1,9 @@
+- Dentro de las interfaces se declara un contrato. Un contrato que solo puede ser violado si las condiciones son opcionales.
+- De todo lo que puede declararse dentro de la interfaz, únicamente las propiedades que son opcionales pueden ir seteadas
+por default o pasando un objeto (seg´´un su estructura) para sobreescribir sus valores.
+- Anteponiendo la palabra reservada `readonly` se define que algunas propiedades podrían no ser modificables.
+
+- Las interfaces ayudan a poder heredar propiedades entre los componentes.
+- Pueden extenderse unas a otras, lo que permite copiar miembros ya definidos en una interfaz a otra
+- Flexibilidad 
+- Reusabilidad 
