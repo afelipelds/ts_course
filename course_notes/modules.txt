@@ -1,0 +1,2 @@
+- Los módulos ayudan a seccionar el código para que todo sea más legible a la hora de leer y codear.
+ - `import` & `export` son las palabras claves para compartir los móduilos entre archivos.
