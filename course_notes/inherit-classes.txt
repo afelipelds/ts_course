@@ -1,0 +1,12 @@
+Super Clases:
+- Al igual que las interfaces, las clases también pueden heredar atributos y propiedades.
+-> Implementa la habilidad de extender código de clases existentes a través de la herencia
+- Modificador de acceso `protected` que permite un acceso ni público ni privado. Dan acceso a los miembros cuando las subclases requieran usarlos.
+- super(): Sirve para invocar al constructor de una SUPERCLASE. Un objeto que instancie la (super)clase, va a tener inicializado las variables que dentro de la superclase fueron declaradas
+
+Clases Abstractas:
+- Son la base de donde otras clases pueden derivarse. Implementa funciones para sus instancias . `abstract` es la palabra reservada
+- Se usan cuando una super clase llega a ser demasiado general y queremos evitar crear instacias a partir de la misma.
+- La palabra reservada `static` se usa para definir un miembro visible a nivel de clase.
+- Se usa la palabra reservada `readonly` para marcar un miembro de una clase como solo lectura.
+
