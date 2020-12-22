@@ -1,0 +1,11 @@
+-Como defender el Principio de Responsabilidad Única
+
+Para defender el Principio de Responsabilidad Única en nuestro código podemos apoyarnos en mejorar dos aspectos del mismo. Estos son la cohesión y el acoplamiento, de forma que:
+
+1. Mantener una alta cohesión, es decir, mantener ‘unidas’ funcionalidades que estén relacionadas entre sí y mantener fuera aquello que no esté relacionado. El objetivo es aumentar la cohesión entre las cosas que cambian por las mismas razones.
+2. Mantener un bajo acoplamiento, es decir, reducir al máximo posible el grado de la relación de un clase o módulo con el resto, para favorecer crear código más fácilmente mantenible, extensible y testeable. El objetivo es disminuir el acoplamiento entre aquellas cosas que cambian de forma diferente.
+
+Estos dos aspectos favorecerá un código con funcionalidades más concretas y mejor especificadas.
+_**Reúne las cosas que cambian por las mismas razones. Separa las cosas que cambian por diferentes razones.**_
+
+https://medium.com/@mpijierro/principios-solid-principio-de-responsabilidad-%C3%BAnica-13eb4d5537c1

@@ -1,1 +1,3 @@
-- Aserciones de tipos : Provee un mecanismo para 'cobvertir' los tipos en algo que conocemos. Debe TS tener un mecanismo para que esto suceda. TS no realiza ningún tipo de verificación y noa fecta el tiempo de ejecución del código.
+- Aserciones de tipos : Provee un mecanismo para 'convertir' los tipos en algo que conocemos. 
+Debe TS tener un mecanismo para que esto suceda. 
+TS no realiza ningún tipo de verificación y nos fecta el tiempo de ejecución del código.
